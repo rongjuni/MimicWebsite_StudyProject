@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.firstBox {
+  width: 50%;
+  margin-left: 5%;
+  font-size: large;
+  font-weight: 700;
+}
+
+.firstBox {
+  margin: 30px;
+}
+
+.firstBox span {
+  font-size: 30px;
+  margin: 0 20px 0 0;
+}
+
+.secondBox {
+  width: 50%;
+  text-align: right;
+  margin: 30px;
+}
+
+.secondBox span {
+  font-size: 30px;
+  margin: 0 20px 0 0;
+}
+
+.second-container {
+  text-align: center;
+}
+
+.second-container h2 {
+  height: 40px;
+  margin: 30px;
+}
