@@ -1,40 +1,117 @@
-.header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.firstBox {
-  width: 50%;
-  margin-left: 5%;
-  font-size: large;
-  font-weight: 700;
-}
-
-.firstBox {
-  margin: 30px;
-}
-
-.firstBox span {
-  font-size: 30px;
-  margin: 0 20px 0 0;
-}
-
-.secondBox {
-  width: 50%;
-  text-align: right;
-  margin: 30px;
-}
-
-.secondBox span {
-  font-size: 30px;
-  margin: 0 20px 0 0;
-}
-
-.second-container {
+body {
   text-align: center;
 }
 
-.second-container h2 {
-  height: 40px;
-  margin: 30px;
+.header {
+  font-size: 1.5rem;
+  display: flex;
+  margin: 10px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: left;
+  margin: 0;
+}
+
+.title h1,
+.title .version {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+.github {
+  font-size: 1.5rem;
+}
+
+.github a {
+  margin-left: 0.5rem;
+}
+
+header div a {
+  color: black;
+  text-decoration: none;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 5rem;
+  height: fit-content;
+  width: 100%;
+  padding: 2rem;
+}
+
+.btn {
+  padding: 1rem;
+  border: 0 solid transparent;
+  border-radius: 10px;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: blue;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon-item {
+  width: 200px;
+  height: 200px;
+  margin: 0.3rem;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons-customize-container {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.icons {
+  flex-grow: 4;
+}
+
+.iconsearch {
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+#search-box {
+  background-color: lightgray;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  height: 2rem;
 }
